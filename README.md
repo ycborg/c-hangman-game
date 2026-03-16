@@ -15,9 +15,9 @@ This is a classic Hangman game developed in **C** to explore file handling (`FIL
 * **Command Line Arguments:** The game expects the path to the word list as an argument (`argv`), demonstrating a more advanced use of the `main` function.
 
 ### 💻 How to run
-1. **Compile** the code:
+1. **Compile** using the provided Makefile:
    ```bash
-   gcc forca.c -o forca
+   make all
 
 2. **Run** the game by providing the word list file:
    ```bash
